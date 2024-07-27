@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: border-box;
+
+}
+html,body{
+    font-family: "Roboto", sans-serif;
+    height:100vh;
+}
+.img1{
+    background-image: url("developer.png");
+    height: 100%;
+    
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+
+}
+.title{
+    font-style: bold;
+    color:white;
+    position: relative;
+    top:10%;
+    left:21%;
+    font-size: 80px;
+    letter-spacing: 5px;
+    padding: 15px;
+    font-style: bold;
+
+}
+.title span{
+    font-size: 40px;
+
+}
+.footer{
+   height: 250px;
+   background-color: black; 
+   color:white;
+   
+}
+.footer p{
+    font-size: 80px;
+    position: relative;
+    top: 20%;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.footer span{
+    font-size: 120px;
+}
+.card-container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    align-content: center; 
+    
+}
+.card{
+    display: inline-block;
+    height: 500px;
+    width:  400px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 5px black;
+    transition: 1s ;
+
+}
+.card img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-info p{
+    padding:10px;
+}
+.card-info-title{
+    font-style: bold;
+    font-size: 30px;
+}
+.card:hover{
+    box-shadow: 5px 5px 15px goldenrod;
+    
+    
+}
+.creator-info{
+    height: 350px;
+    background-color: grey;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+.creator-info .contact,.creator-info .about{
+    
+    width: 50%;
+    color: white;
+}
+.creator-info p{
+    padding: 40px 100px 0px 50px;
+    
+}
+.contact{
+    background-color: #3B3E10;
+    
+}
+.about{
+    background-color: #4F1E09;
+}
+.creator-info-title{
+    font-style: bold;
+    font-size: 50px;
+    
+}
+footer{
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    
+    
+}
+footer p{
+    position: relative;
+    top:40%;
+    font-size: 30px;
+}
+@media screen  and (max-width:1500px){
+    .creator-info{
+        height: 400px;
+    }
+    .footer p{
+        font-size: 40px;
+        position: relative;
+        top: 20%;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+    .footer span{
+        font-size: 80px;
+    }
+}
+@media screen  and (max-width:1100px){
+    .creator-info{
+        height: 500px;
+    }
+}
+@media screen  and (max-width:800px){
+    .creator-info{
+        height: 700px;
+    }
+    .footer p{
+        font-size: 20px;
+        position: relative;
+        top: 20%;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+    .footer span{
+        font-size: 60px;
+    }
+}
+@media screen  and (max-width:700px){
+    .creator-info{
+        height: 1000px;
+    }
+}
+
